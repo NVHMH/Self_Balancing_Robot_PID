@@ -4,5 +4,5 @@ motor.c:28:13:Stop_motor	8	static
 motor.c:35:6:Forward	16	static
 motor.c:42:6:Reverse	16	static
 motor.c:49:6:PID_controller	32	static
-motor.c:68:6:Control_motor	32	static
-motor.c:87:6:Reset_PID	16	static
+motor.c:62:6:Control_motor	32	static
+motor.c:81:6:Reset_PID	16	static

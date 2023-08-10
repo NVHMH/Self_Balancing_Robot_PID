@@ -51,7 +51,7 @@ void PID_controller(double new_angle, PID_t *pid){
 	pid->f_P_part	= pid->f_Kp*(pid->f_ek-pid->f_ek_1);
 	pid->f_I_part	= 0.5*pid->f_Ki*TIME_EXAMPLE*(pid->f_ek+pid->f_ek_1);
 	pid->f_D_part	= pid->f_Kd*(pid->f_ek-2*pid->f_ek_1+pid->f_ek_2)/TIME_EXAMPLE;
-	pid->f_uk		= pid->f_P_part+pid->f_I_part+pid->f_D_part;
+	pid->f_uk		= pid->f_uk1 +pid->f_P_part+pid->f_I_part+pid->f_D_part;
 	if(pid->f_uk> U_MAX)  pid->f_uk = U_MAX;
 	if(pid->f_uk<-U_MAX) pid->f_uk = -U_MAX;
 	pid->f_ek_2		= pid->f_ek_1;

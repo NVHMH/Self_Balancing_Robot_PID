@@ -54,9 +54,9 @@ UART_HandleTypeDef huart1;
 	MPU6050_t	t_MPU6050;
 
 	PID_t		t_pid = {
-				.f_Kp 		= 0.06,
-				.f_Ki		= 0.01,
-				.f_Kd		= 0.001,
+				.f_Kp 		= 0.05,
+				.f_Ki		= 0.005,
+				.f_Kd		= 0.000002,
 				.f_setpoint = -2.0,
 	};
 
