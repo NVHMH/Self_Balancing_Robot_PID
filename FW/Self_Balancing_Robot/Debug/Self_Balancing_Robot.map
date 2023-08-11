@@ -3748,38 +3748,38 @@ OUTPUT(Self_Balancing_Robot.elf elf32-littlearm)
  .debug_line    0x000000000000aad4      0x790 Lib/Src/motor.o
  .debug_line    0x000000000000b264      0x8d3 Lib/Src/mpu6050.o
 
-.debug_str      0x0000000000000000    0x8c535
- .debug_str     0x0000000000000000    0x8560c Core/Src/main.o
-                                      0x85a81 (size before relaxing)
- .debug_str     0x000000000008560c      0x386 Core/Src/stm32f1xx_hal_msp.o
+.debug_str      0x0000000000000000    0x8c536
+ .debug_str     0x0000000000000000    0x8560d Core/Src/main.o
+                                      0x85a82 (size before relaxing)
+ .debug_str     0x000000000008560d      0x386 Core/Src/stm32f1xx_hal_msp.o
                                       0x8599f (size before relaxing)
- .debug_str     0x0000000000085992       0xcf Core/Src/stm32f1xx_it.o
+ .debug_str     0x0000000000085993       0xcf Core/Src/stm32f1xx_it.o
                                       0x85392 (size before relaxing)
- .debug_str     0x0000000000085a61       0x52 Core/Src/system_stm32f1xx.o
+ .debug_str     0x0000000000085a62       0x52 Core/Src/system_stm32f1xx.o
                                       0x84c93 (size before relaxing)
- .debug_str     0x0000000000085ab3       0x36 Core/Startup/startup_stm32f103c8tx.o
+ .debug_str     0x0000000000085ab4       0x36 Core/Startup/startup_stm32f103c8tx.o
                                          0x80 (size before relaxing)
- .debug_str     0x0000000000085ae9      0x304 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_str     0x0000000000085aea      0x304 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
                                       0x85324 (size before relaxing)
- .debug_str     0x0000000000085ded      0x300 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_str     0x0000000000085dee      0x300 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
                                       0x8532c (size before relaxing)
- .debug_str     0x00000000000860ed      0x230 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
+ .debug_str     0x00000000000860ee      0x230 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
                                       0x8506e (size before relaxing)
- .debug_str     0x000000000008631d      0x31f Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_str     0x000000000008631e      0x31f Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
                                       0x85057 (size before relaxing)
- .debug_str     0x000000000008663c      0xb47 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+ .debug_str     0x000000000008663d      0xb47 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
                                       0x85ccf (size before relaxing)
- .debug_str     0x0000000000087183      0x244 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_str     0x0000000000087184      0x244 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
                                       0x85090 (size before relaxing)
- .debug_str     0x00000000000873c7      0xd38 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
+ .debug_str     0x00000000000873c8      0xd38 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
                                       0x86062 (size before relaxing)
- .debug_str     0x00000000000880ff      0x4ee Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
+ .debug_str     0x0000000000088100      0x4ee Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
                                       0x85813 (size before relaxing)
- .debug_str     0x00000000000885ed      0x5c6 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
+ .debug_str     0x00000000000885ee      0x5c6 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
                                       0x85682 (size before relaxing)
- .debug_str     0x0000000000088bb3       0x75 Lib/Src/motor.o
-                                      0x85210 (size before relaxing)
- .debug_str     0x0000000000088c28     0x390d Lib/Src/mpu6050.o
+ .debug_str     0x0000000000088bb4       0x75 Lib/Src/motor.o
+                                      0x85211 (size before relaxing)
+ .debug_str     0x0000000000088c29     0x390d Lib/Src/mpu6050.o
                                       0x88ae7 (size before relaxing)
 
 .comment        0x0000000000000000       0x7b

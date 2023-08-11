@@ -55,8 +55,8 @@ UART_HandleTypeDef huart1;
 
 	PID_t		t_pid = {
 				.f_Kp 		= 0.05,
-				.f_Ki		= 0.005,
-				.f_Kd		= 0.000002,
+				.f_Ki		= 0.00029,
+				.f_Kd		= 0.00001,
 				.f_setpoint = -2.0,
 	};
 
@@ -285,7 +285,7 @@ static void MX_TIM1_Init(void)
 
   /* USER CODE END TIM1_Init 1 */
   htim1.Instance = TIM1;
-  htim1.Init.Prescaler = 7999;
+  htim1.Init.Prescaler = 799;
   htim1.Init.CounterMode = TIM_COUNTERMODE_UP;
   htim1.Init.Period = 99;
   htim1.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;

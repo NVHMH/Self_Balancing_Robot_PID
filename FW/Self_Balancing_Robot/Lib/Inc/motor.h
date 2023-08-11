@@ -27,7 +27,7 @@
 //# define	D_PART_MIN		0
 #define 	U_MAX			1
 #define		EPSILON			0.3
-#define 	TIME_EXAMPLE	5 		// 10ms
+#define 	TIME_EXAMPLE	10 		// 10ms
 #define 	ANGLE_THRESHOLD	60
 
 

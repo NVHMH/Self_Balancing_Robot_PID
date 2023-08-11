@@ -39,9 +39,9 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
  17 .debug_line   0000bb37  00000000  00000000  0004a0b4  2**0
                   CONTENTS, READONLY, DEBUGGING
- 18 .debug_str    0008c535  00000000  00000000  00055beb  2**0
+ 18 .debug_str    0008c536  00000000  00000000  00055beb  2**0
                   CONTENTS, READONLY, DEBUGGING
- 19 .comment      0000007b  00000000  00000000  000e2120  2**0
+ 19 .comment      0000007b  00000000  00000000  000e2121  2**0
                   CONTENTS, READONLY
  20 .debug_frame  00004634  00000000  00000000  000e219c  2**2
                   CONTENTS, READONLY, DEBUGGING
@@ -1995,9 +1995,9 @@ static void MX_TIM1_Init(void)
  800144c:	4b1e      	ldr	r3, [pc, #120]	; (80014c8 <MX_TIM1_Init+0x98>)
  800144e:	4a1f      	ldr	r2, [pc, #124]	; (80014cc <MX_TIM1_Init+0x9c>)
  8001450:	601a      	str	r2, [r3, #0]
-  htim1.Init.Prescaler = 7999;
+  htim1.Init.Prescaler = 799;
  8001452:	4b1d      	ldr	r3, [pc, #116]	; (80014c8 <MX_TIM1_Init+0x98>)
- 8001454:	f641 723f 	movw	r2, #7999	; 0x1f3f
+ 8001454:	f240 321f 	movw	r2, #799	; 0x31f
  8001458:	605a      	str	r2, [r3, #4]
   htim1.Init.CounterMode = TIM_COUNTERMODE_UP;
  800145a:	4b1b      	ldr	r3, [pc, #108]	; (80014c8 <MX_TIM1_Init+0x98>)
@@ -13625,8 +13625,8 @@ void PID_controller(double new_angle, PID_t *pid){
  8005510:	46bd      	mov	sp, r7
  8005512:	bdb0      	pop	{r4, r5, r7, pc}
  8005514:	3fe00000 	.word	0x3fe00000
- 8005518:	40140000 	.word	0x40140000
- 800551c:	40a00000 	.word	0x40a00000
+ 8005518:	40240000 	.word	0x40240000
+ 800551c:	41200000 	.word	0x41200000
  8005520:	bf800000 	.word	0xbf800000
  8005524:	00000000 	.word	0x00000000
 
